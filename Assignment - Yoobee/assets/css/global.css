@@ -1,0 +1,162 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+/* Header */
+nav {
+  margin: 0 20px 20px 20px;
+  height: 40px;
+  display: flex;
+  text-decoration: none;
+  font-weight: 700;
+  justify-content: right;
+  align-items: center;
+  column-gap: 30px;
+}
+
+nav a {
+  color: #4d7c80;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+.header-back {
+  width: 100%;
+  height: 100%;
+  background: url(https://picsum.photos/id/213/2048/1206.jpg);
+}
+
+.scroll {
+  width: 100%;
+  font-style: italic;
+  text-align: center;
+  color: #ffffff;
+  transition-timing-function: ease-in cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.header-page-back {
+  width: 100%;
+  height: 300px;
+  background-color: #91c3c7;
+  vertical-align: middle;
+}
+
+.contact-header {
+  float: left;
+  width: 100%;
+
+}
+
+.logo {
+  padding: 0 0 0 30px;
+}
+
+/* Footer */
+.footer-back {
+  width: 100%;
+  height: auto;
+  background-color: #91c3c7;
+  position: sticky;
+  bottom: 0;
+}
+
+
+/* Contact Page */
+.map {
+  float: left;
+  padding: 0 40px 0 40px;
+  width: 75%;
+}
+
+.contact-form {
+  margin: 0;
+  padding: 30px;
+}
+
+.contact-form .form-control {
+  border-color: rgb(175, 175, 173);
+  width: 20%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  margin: 2px;
+}
+
+.contact-form .form-control:not(textarea) {
+  height: 30px;
+}
+
+.contact-form .submit-btn {
+  background: #91c3c7;
+  border-radius: 20px;
+  padding: 0 20px 0 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.contact-form .submit-btn:hover {
+  background: #474559;
+}
+
+.contact-section {
+  width: 50%;
+}
+/* About Us */
+.about-copy {
+  float: left;
+  width: 75%;
+}
+
+.about-list {
+  background-color: rgb(225, 226, 226);
+  float: left;
+  width: 25%
+}
+
+.ulist {
+  margin: 0;
+  padding: 0 0 0 50px;
+  width: 100%;
+}
+
+/* Image Section Home Page */
+
+.pics {
+  display: flex;
+  margin: 40px;
+}
+
+.pic {
+  flex: 33.33%;
+  padding: 0;
+}
+
+/* Image Section About Us */
+.about-columns {
+  display: flex;
+  margin: 40px;
+}
+
+.about1 {
+  flex: 50%;
+  padding: 40px;
+}
